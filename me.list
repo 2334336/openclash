@@ -1,72 +1,38 @@
-# NAME: MeiTuan
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:36
-# HOST-SUFFIX: 7
-# TOTAL: 7
-HOST-SUFFIX,dianping.com,MeiTuan
-HOST-SUFFIX,maoyan.com,MeiTuan
-HOST-SUFFIX,meituan.com,MeiTuan
-HOST-SUFFIX,meituan.net,MeiTuan
-HOST-SUFFIX,mtyun.com,MeiTuan
-HOST-SUFFIX,neixin.cn,MeiTuan
-HOST-SUFFIX,sankuai.com,MeiTuan
-
-# NAME: Coolapk
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:02:55
-# HOST-SUFFIX: 3
-# TOTAL: 3
-HOST-SUFFIX,coolapk.com,Coolapk
-HOST-SUFFIX,coolapkmarket.com,Coolapk
-HOST-SUFFIX,coolapkmarket.net,Coolapk
-
-# NAME: Bing
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:00
-# HOST-SUFFIX: 9
-# TOTAL: 9
-HOST-SUFFIX,bing.com,Bing
-HOST-SUFFIX,bing.com.cn,Bing
-HOST-SUFFIX,bing.net,Bing
-HOST-SUFFIX,bingads.com,Bing
-HOST-SUFFIX,bingagencyawards.com,Bing
-HOST-SUFFIX,bingapistatistics.com,Bing
-HOST-SUFFIX,bingsandbox.com,Bing
-HOST-SUFFIX,bingvisualsearch.com,Bing
-HOST-SUFFIX,bingworld.com,Bing
-
-# NAME: DouYin
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:18:50
-# HOST: 2
-# HOST-SUFFIX: 11
-# TOTAL: 13
-HOST,lf3-static.bytednsdoc.com,DouYin
-HOST,v5-dy-o-abtest.zjcdn.com,DouYin
-HOST-SUFFIX,amemv.com,DouYin
-HOST-SUFFIX,douyincdn.com,DouYin
-HOST-SUFFIX,douyinpic.com,DouYin
-HOST-SUFFIX,douyinstatic.com,DouYin
-HOST-SUFFIX,douyinvod.com,DouYin
-HOST-SUFFIX,idouyinvod.com,DouYin
-HOST-SUFFIX,ixigua.com,DouYin
-HOST-SUFFIX,ixiguavideo.com,DouYin
-HOST-SUFFIX,pstatp.com,DouYin
-HOST-SUFFIX,snssdk.com,DouYin
-HOST-SUFFIX,toutiao.com,DouYin
-
-# NAME: XiaoHongShu
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:18:50
-# HOST-SUFFIX: 4
-# TOTAL: 4
-HOST-SUFFIX,fengkongcloud.com,XiaoHongShu
-HOST-SUFFIX,xhscdn.com,XiaoHongShu
-HOST-SUFFIX,xhscdn.net,XiaoHongShu
-HOST-SUFFIX,xiaohongshu.com,XiaoHongShu
-
+[filter_local]
+# 整合后的直连规则（原 MeiTuan、Coolapk、Bing、DouYin、XiaoHongShu）
+DOMAIN,lf3-static.bytednsdoc.com,DIRECT
+DOMAIN,v5-dy-o-abtest.zjcdn.com,DIRECT
+DOMAIN-SUFFIX,amemv.com,DIRECT
+DOMAIN-SUFFIX,bing.com,DIRECT
+DOMAIN-SUFFIX,bing.com.cn,DIRECT
+DOMAIN-SUFFIX,bing.net,DIRECT
+DOMAIN-SUFFIX,bingads.com,DIRECT
+DOMAIN-SUFFIX,bingagencyawards.com,DIRECT
+DOMAIN-SUFFIX,bingapistatistics.com,DIRECT
+DOMAIN-SUFFIX,bingsandbox.com,DIRECT
+DOMAIN-SUFFIX,bingvisualsearch.com,DIRECT
+DOMAIN-SUFFIX,bingworld.com,DIRECT
+DOMAIN-SUFFIX,coolapk.com,DIRECT
+DOMAIN-SUFFIX,coolapkmarket.com,DIRECT
+DOMAIN-SUFFIX,coolapkmarket.net,DIRECT
+DOMAIN-SUFFIX,dianping.com,DIRECT
+DOMAIN-SUFFIX,douyincdn.com,DIRECT
+DOMAIN-SUFFIX,douyinpic.com,DIRECT
+DOMAIN-SUFFIX,douyinstatic.com,DIRECT
+DOMAIN-SUFFIX,douyinvod.com,DIRECT
+DOMAIN-SUFFIX,fengkongcloud.com,DIRECT
+DOMAIN-SUFFIX,idouyinvod.com,DIRECT
+DOMAIN-SUFFIX,ixigua.com,DIRECT
+DOMAIN-SUFFIX,ixiguavideo.com,DIRECT
+DOMAIN-SUFFIX,maoyan.com,DIRECT
+DOMAIN-SUFFIX,meituan.com,DIRECT
+DOMAIN-SUFFIX,meituan.net,DIRECT
+DOMAIN-SUFFIX,mtyun.com,DIRECT
+DOMAIN-SUFFIX,neixin.cn,DIRECT
+DOMAIN-SUFFIX,pstatp.com,DIRECT
+DOMAIN-SUFFIX,sankuai.com,DIRECT
+DOMAIN-SUFFIX,snssdk.com,DIRECT
+DOMAIN-SUFFIX,toutiao.com,DIRECT
+DOMAIN-SUFFIX,xhscdn.com,DIRECT
+DOMAIN-SUFFIX,xhscdn.net,DIRECT
+DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
