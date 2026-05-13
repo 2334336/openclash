@@ -1,8 +1,0 @@
-# 酷安全部放行（热搜、首页、评论等所有广告都不拦截）
-host, api.coolapk.com, DIRECT
-
-# 美团 & 美团外卖全部放行
-host, wmapi.meituan.net, DIRECT
-host, img.meituan.net, DIRECT
-host, s3plus.meituan.net, DIRECT
-host, flowplus.meituan.net, DIRECT
