@@ -1,0 +1,14 @@
+# > 酷安
+# hostname = api.coolapk.com
+^https?:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? url DIRECT
+^https?:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) url DIRECT
+^https?:\/\/api\.coolapk\.com\/v6\/page\/dataList\? url DIRECT
+# > 美团 & 美团外卖
+# hostname = img.meituan.net, s3plus.meituan.net, flowplus.meituan.net
+^https?:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? url DIRECT
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url DIRECT
+^https?:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg url DIRECT
+^https?:\/\/img\.meituan\.net\/goodsawardpic\/[a-f0-9]+\.png\.webp url DIRECT
+^https?:\/\/s3plus\.meituan\.net\/ocean-blk-index\/index\/blk_conf_73\.json url DIRECT
+^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ url DIRECT
+^http:\/\/59\.82\.113\.10\/amdc\/mobileDispatch\?appkey=213807& url DIRECT
